@@ -1,0 +1,70 @@
+/* REGOLE GENERALI */
+* {
+  left: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NAV FISSO */
+
+.navfix {
+  height: 100px;
+  width: 100%;
+  /* degug */
+  background-color: grey;
+}
+
+
+/* BARRA NAV MENU */
+
+.navconteiner {
+  height: 200px;
+  width: 100%;
+  /* debug */
+  background-color: blue;
+}
+
+/* 1° BLOCCO JUMBOTRON */
+
+.jumbocontainer {
+  height: 600px;
+  width: 100%;
+  /* debug */
+  background-color: yellow;
+}
+
+/* 2° BLOCCO CENTRALE */
+
+.centralblock {
+  height: 600px;
+  width: 100%;
+  /* debug */
+  background-color: green;
+}
+
+/* 3° BLOCCO */
+
+.block3 {
+  height: 600px;
+  width: 100%;
+  /* debug */
+  background-color: pink;
+}
+
+/* 4° BLOCCO */
+
+.block4 {
+  height: 600px;
+  width: 100%;
+  /* debug */
+  background-color: violet;
+}
+
+/* FOOTER */
+
+.footer {
+  height: 400px;
+  width: 100%;
+  /* debug */
+  background-color: lightgreen;
+}
