@@ -3,16 +3,72 @@
   left: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: helvetica;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* NAV FISSO */
-
-.navfix {
+/* ------------ NAV LEFT ----------- */
+.navfixleft {
   height: 100px;
   width: 100%;
+  position: fixed;
   /* degug */
-  background-color: grey;
+  background-color: lightgrey;
 }
+
+.navfixcontentleft {
+  padding: 38px 20px;
+  padding-left: 15%;
+}
+
+.linavfixleft li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#english {
+  padding-right: 28px;
+}
+
+#contact {
+  padding-left: 30px;
+  border-left: grey solid 2px;
+}
+
+/* ------------ NAV RIGHT ----------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* BARRA NAV MENU */
@@ -27,12 +83,18 @@
 /* 1° BLOCCO JUMBOTRON */
 
 .jumbocontainer {
-  height: 600px;
+  height: 700px;
   width: 100%;
+  background-image: url(img/jumbocoso.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   /* debug */
-  background-color: yellow;
+
 }
 
+.jumbocontent {
+
+}
 /* 2° BLOCCO CENTRALE */
 
 .centralblock {
