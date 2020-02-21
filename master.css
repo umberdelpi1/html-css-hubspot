@@ -18,6 +18,12 @@ navconteiner::after {
   clear: both;
 }
 
+jumbocontainer2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* NAV FISSO */
 /* ------------ NAV LEFT ----------- */
 .navfixconteiner {
@@ -141,18 +147,48 @@ i {
   background-image: url(img/jumbocoso.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10%
-  /* debug */
-  border: solid black 4px;
+  padding: 4%
+}
+
+.jumbocontainer2 {
+  height: 500px;
+  width: 30%;
+  margin-left: 11%;
 }
 
 .jumbocontent {
-  height: 300px;
-  width: 25%;
-  /* debug */
-  border: solid black 4px;
-  background-color: white;
+  height: 500px;
+  width: 100%;
 }
+
+#jumbotronh1 {
+  font-size: 50px;
+  padding-bottom: 10%;
+}
+
+#jumbotron2 {
+  font-size: 20px;
+  line-height: 150%;
+  text-align: left;
+  padding-bottom: 15%;
+}
+
+#jumbotron3 {
+  background-color: orange;
+  padding:30px;
+  font-size: 20px;
+  border-radius: 3%;
+}
+
+#jumbotron4 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 15%;
+}
+
+
+
+
 /* 2° BLOCCO CENTRALE */
 
 .centralblock {
