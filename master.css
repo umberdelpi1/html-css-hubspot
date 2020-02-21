@@ -24,6 +24,12 @@ jumbocontainer2::after {
   clear: both;
 }
 
+blockcrescita::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* NAV FISSO */
 /* ------------ NAV LEFT ----------- */
 .navfixconteiner {
@@ -181,9 +187,10 @@ i {
 }
 
 #jumbotron4 {
-  font-size: 20px;
+  font-size: 12px;
   text-align: left;
   margin-top: 15%;
+  margin-right: 60%;
 }
 
 
@@ -192,11 +199,63 @@ i {
 /* 2° BLOCCO CENTRALE */
 
 .centralblock {
-  height: 600px;
+  height: 1500px;
   width: 100%;
   /* debug */
-  background-color: green;
+  background-color: lightgrey;
 }
+
+.blockcrescita {
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* debug */
+  margin-left: 10%;
+  height: 400px;
+  width: 80%;
+}
+
+.blockcrescita img {
+  margin-left: 44%;
+  padding-bottom: 25px;
+}
+
+.imgrubik {
+  height: auto;
+  width: 200px;
+  padding-top: 25px;
+}
+
+.h2blkcenter {
+text-align: center;
+font-size: 30px;
+padding-bottom: 25px;
+}
+
+.pblkcenter {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 3° BLOCCO */
 
