@@ -25,12 +25,20 @@ nav::after {
 .navfixcontentleft {
   padding: 38px 20px;
   padding-left: 15%;
+  height: 20px;
+  /* background: pink; */
+
 }
 
 .linavfixleft li {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
+
+}
+
+i {
+  padding-right: 15px;
 }
 
 #english {
@@ -42,33 +50,27 @@ nav::after {
   border-left: grey solid 2px;
 }
 
+
 /* ------------ NAV RIGHT ----------- */
 
+.navright {
+  float: right;
+  padding: 0 20%;
+}
 
+#login {
+  border: solid orange 2px;
+  border-radius: 10%;
+  background-color: white;
+  padding: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#gethub {
+  background-color: orange;
+  color: white;
+  padding: 12px;
+  border-radius: 4%;
+}
 
 
 /* BARRA NAV MENU */
@@ -76,9 +78,35 @@ nav::after {
 .navconteiner {
   height: 200px;
   width: 100%;
+
   /* debug */
-  background-color: blue;
+  /* background-color: white; */
 }
+
+.navcontent {
+background-color: lightpink;
+height: 300px;
+width: 90%;
+margin-left: 5%;
+padding-top: 8%;
+padding-left: 2%;
+background-image: url(img/HSLogo.svg);
+background-repeat: no-repeat;
+}
+
+navconteiner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
 
 /* 1° BLOCCO JUMBOTRON */
 
@@ -88,12 +116,17 @@ nav::after {
   background-image: url(img/jumbocoso.png);
   background-repeat: no-repeat;
   background-size: cover;
+  border: solid black 4px;
   /* debug */
 
 }
 
 .jumbocontent {
-
+  height: 300px;
+  width: 25%;
+  /* debug */
+  border: solid black 4px;
+  background-color: white;
 }
 /* 2° BLOCCO CENTRALE */
 
