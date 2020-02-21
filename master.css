@@ -6,26 +6,32 @@
   font-family: helvetica;
 }
 
-nav::after {
+navfixconteiner::after {
   content: "";
   display: table;
   clear: both;
 }
 
+
 /* NAV FISSO */
 /* ------------ NAV LEFT ----------- */
-.navfixleft {
+.navfixconteiner {
   height: 100px;
   width: 100%;
+  padding: 20px 200px;
   position: fixed;
   /* degug */
-  background-color: lightgrey;
+  background-color: rgb(222, 243, 250);
+  /* border: solid black 2px; */
 }
 
 .navfixcontentleft {
-  padding: 38px 20px;
-  padding-left: 15%;
-  height: 20px;
+  height: 50px;
+  width: 25%;
+  float: left;
+  padding-top: 12px;
+  /* debug */
+  /* border: solid black 1px; */
   /* background: pink; */
 
 }
@@ -38,31 +44,41 @@ nav::after {
 }
 
 i {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 #english {
-  padding-right: 28px;
+  padding-right: 10px;
 }
 
 #contact {
-  padding-left: 30px;
+  padding-left: 10px;
   border-left: grey solid 2px;
 }
 
 
 /* ------------ NAV RIGHT ----------- */
 
-.navright {
+.navcontentright {
+  height: 50px;
   float: right;
-  padding: 0 20%;
+  /* debug */
+  /* background-color: pink;
+  border: solid black 1px; */
+}
+
+.linavfixright li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+
 }
 
 #login {
   border: solid orange 2px;
   border-radius: 10%;
   background-color: white;
-  padding: 10px;
+  padding: 5px;
 }
 
 #gethub {
@@ -78,28 +94,17 @@ i {
 .navconteiner {
   height: 200px;
   width: 100%;
-
+  padding-top: 100px;
   /* debug */
-  /* background-color: white; */
+  background-color: red;
 }
 
-.navcontent {
-background-color: lightpink;
-height: 300px;
-width: 90%;
-margin-left: 5%;
-padding-top: 8%;
-padding-left: 2%;
-background-image: url(img/HSLogo.svg);
-background-repeat: no-repeat;
+.navcontentleft {
+  height: 50px;
+  width: 25%;
+  /* debug */
+  background-color: pink;
 }
-
-navconteiner::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 
 
@@ -116,9 +121,9 @@ navconteiner::after {
   background-image: url(img/jumbocoso.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: solid black 4px;
+  padding: 10%
   /* debug */
-
+  border: solid black 4px;
 }
 
 .jumbocontent {
