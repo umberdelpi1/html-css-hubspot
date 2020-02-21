@@ -12,6 +12,11 @@ navfixconteiner::after {
   clear: both;
 }
 
+navconteiner::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* NAV FISSO */
 /* ------------ NAV LEFT ----------- */
@@ -31,8 +36,8 @@ navfixconteiner::after {
   float: left;
   padding-top: 12px;
   /* debug */
-  /* border: solid black 1px; */
-  /* background: pink; */
+  /* border: solid black 1px;
+  background: pink */
 
 }
 
@@ -40,7 +45,6 @@ navfixconteiner::after {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
-
 }
 
 i {
@@ -71,21 +75,19 @@ i {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
-
 }
 
 #login {
   border: solid orange 2px;
-  border-radius: 10%;
   background-color: white;
-  padding: 5px;
+  padding: 8px;
 }
 
 #gethub {
   background-color: orange;
   color: white;
-  padding: 12px;
-  border-radius: 4%;
+  padding: 10px;
+  padding-left: 5px;
 }
 
 
@@ -94,21 +96,39 @@ i {
 .navconteiner {
   height: 200px;
   width: 100%;
-  padding-top: 100px;
-  /* debug */
-  background-color: red;
+  padding-top: 140px;
+  background-color: white;
 }
-
+/* -----------------------NAV CONTENT LEFT */
 .navcontentleft {
   height: 50px;
-  width: 25%;
+  width: 30%;
+  float: left;
+  padding-left: 15%;
   /* debug */
-  background-color: pink;
+  /* background-color: pink; */
 }
 
+/* -----------------------NAV CONTENT RIGHT */
 
+.navright {
+  height: 50px;
+  width: 46%;
+  float: right;
+  /* debug */
 
+}
 
+.navright li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* debug */
+  /* background-color: pink;
+  border: solid black 1px; */
+}
 
 
 
