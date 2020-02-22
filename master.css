@@ -439,26 +439,55 @@ li i {
 
 
 
-
-
-
-
 /* 3° BLOCCO */
 
 .block3 {
-  height: 600px;
+  height: 1000px;
   width: 100%;
-  /* debug */
-  background-color: pink;
+  background-image: linear-gradient(#00a4bd, #00bda5);
 }
+
+.textblock3 {
+  text-align: center;
+  margin: 0 30%;
+}
+
+.textblock3 h2 {
+  font-size: 30px;
+  padding-top: 20%;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.textblock3 p {
+  line-height: 150%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 4° BLOCCO */
 
 .block4 {
   height: 600px;
   width: 100%;
-  /* debug */
-  background-color: violet;
+  background-color: white;
 }
 
 /* FOOTER */
@@ -466,6 +495,5 @@ li i {
 .footer {
   height: 400px;
   width: 100%;
-  /* debug */
-  background-color: lightgreen;
+  background-color: #33475b;
 }
