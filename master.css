@@ -208,7 +208,7 @@ i {
   height: 1500px;
   width: 100%;
   /* debug */
-  background-color: lightgrey;
+  background-color: rgb(237, 237, 237);
 }
 
 .blockcrescita {
@@ -247,9 +247,9 @@ padding-bottom: 25px;
 
 .crmblockcontent {
   background-color: white;
-  border: solid black 1px;
   height: 300px;
   margin: 20px 220px;
+  box-shadow: 0 0 5px #777777;
 }
 /* CRM CONTENT LEFT */
 .crmblockcontentleft {
@@ -305,13 +305,37 @@ padding-bottom: 25px;
   font-size: 12px;
   padding-left: 1px;
   padding-right: 15px;
-
 }
 
+/* BLOCCO PRODOTTI */
 
+.bloccoprodotti {
+  background-color: white;
+  border: solid black 1px;
+  width: 23%;
+  height: 700px;
+  float: left;
+  margin: 17px;
+  margin-left: 218px;
+}
 
+.bloccoprodotti2 {
+  background-color: white;
+  border: solid black 1px;
+  width: 23%;
+  height: 700px;
+  float: left;
+  margin: 18px;
+}
 
-
+.bloccoprodotti3 {
+  background-color: white;
+  border: solid black 1px;
+  width: 23%;
+  height: 700px;
+  float: left;
+  margin: 18px;
+}
 
 
 
