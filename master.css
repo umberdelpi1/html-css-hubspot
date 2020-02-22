@@ -54,6 +54,12 @@ bloccoprodotti3::after {
   clear: both;
 }
 
+blockcommunity::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
@@ -450,6 +456,7 @@ li i {
 .textblock3 {
   text-align: center;
   margin: 0 30%;
+  margin-bottom: 5%;
 }
 
 .textblock3 h2 {
@@ -464,11 +471,53 @@ li i {
   color: white;
 }
 
+/* BLOCCO COMMUNITY */
+
+.blockcommunity {
+  /* debug */
+background-color: lightblue;
+border: solid black 1px;
+height: 600px;
+margin: 0 19%;
+}
+
+.blockcom1 {
+/* debug */
+height: 245px;
+width: 245px;
+border-bottom: solid black 2px;
+border-right: solid black 2px;
+float: left;
+}
+.blockcom2 {
+/* debug */
+height: 245px;
+width: 245px;
+border-right: solid black 2px;
+float: left;
+}
 
 
 
+#logohands {
+height: auto;
+width: 100px;
+}
 
+#logohub {
+  height: auto;
+  width: 100px;
+}
 
+#logoaccademy {
+  height: auto;
+  width: 100px;
+}
+
+#logoinbound {
+  height: auto;
+  width: 100px;
+}
 
 
 
