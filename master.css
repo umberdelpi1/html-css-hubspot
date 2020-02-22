@@ -237,10 +237,18 @@ padding-bottom: 25px;
   padding: 0 20%;
 }
 
+/* CRM */
 
+.crmblockcontent {
+  background-color: white;
+  border: solid black 1px;
+  height: 300px;
+}
 
-
-
+.logodati {
+  height: auto;
+  width: 200px;
+}
 
 
 
