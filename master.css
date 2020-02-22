@@ -36,6 +36,34 @@ crmblockcontent::after {
   clear: both;
 }
 
+bloccoprodotti::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+bloccoprodotti2::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+bloccoprodotti3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* NAV FISSO */
 /* ------------ NAV LEFT ----------- */
 .navfixconteiner {
@@ -264,7 +292,7 @@ padding-bottom: 25px;
   padding-top: 27px;
 }
 
-#Bottoncrm {
+#bottoncrm {
   font-size: 20px;
   margin-left:30%;
   margin-top: 5%;
@@ -307,11 +335,56 @@ padding-bottom: 25px;
   padding-right: 15px;
 }
 
-/* BLOCCO PRODOTTI */
+/* BLOCCO PRODOTTI GENERALE */
 
+.bloccoprodotticontainer h4 {
+  font-size: 23px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.bloccoprodotticontainer p {
+  font-size: 14px;
+  text-align: left;
+  padding-bottom: 5%;
+  line-height: 150%;
+  margin: 0 30px;
+
+}
+
+.bloccoprodotticontainer a {
+  background-color: orange;
+  border-radius: 5%;
+  margin-left: 30%;
+  padding: 20px 30px;
+}
+
+.popular {
+  padding-left: 20%;
+  padding-top: 10%;
+}
+
+.flag {
+  list-style-type: none;
+  line-height: 40px;
+  padding-top: 5%;
+  padding-bottom: 15%;
+  font-size: 13px;
+}
+
+li i {
+  font-size: 20px;
+  color: orange;
+}
+
+.borderbottom {
+  border-bottom: solid black 1px;
+}
+
+/* BLOCCO PRODOTTI SINISTRA  */
 .bloccoprodotti {
   background-color: white;
-  border: solid black 1px;
+  box-shadow: 0 0 5px #777777;
   width: 23%;
   height: 700px;
   float: left;
@@ -319,22 +392,49 @@ padding-bottom: 25px;
   margin-left: 218px;
 }
 
+.logomagia {
+  height: auto;
+  width: 200px;
+  margin-left: 24%;
+  margin-bottom: 5%;
+  margin-top: 10px;
+
+}
+
+/* BLOCCO PRODOTTI CENTRO */
 .bloccoprodotti2 {
   background-color: white;
-  border: solid black 1px;
+  box-shadow: 0 0 5px #777777;
   width: 23%;
   height: 700px;
   float: left;
   margin: 18px;
 }
 
+.logocartella {
+  height: auto;
+  width: 195px;
+  margin-left: 24%;
+  margin-bottom: 5%;
+  margin-top: 10px;
+}
+
+/* BLOCCO PRODOTTI DESTRA */
 .bloccoprodotti3 {
   background-color: white;
-  border: solid black 1px;
+  box-shadow: 0 0 5px #777777;
   width: 23%;
   height: 700px;
   float: left;
   margin: 18px;
+}
+
+.logotavola {
+  height: auto;
+  width: 160px;
+  margin-left: 24%;
+  margin-bottom: 5%;
+  margin-top: 10px;
 }
 
 
