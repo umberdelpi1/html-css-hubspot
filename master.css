@@ -474,53 +474,80 @@ li i {
 /* BLOCCO COMMUNITY */
 
 .blockcommunity {
-  /* debug */
-background-color: lightblue;
-border: solid black 1px;
 height: 600px;
 margin: 0 19%;
 }
 
 .blockcom1 {
 /* debug */
-height: 245px;
+height: 210px;
 width: 245px;
-border-bottom: solid black 2px;
-border-right: solid black 2px;
+border-bottom: solid white 2px;
+border-right: solid white 2px;
 float: left;
 }
 .blockcom2 {
 /* debug */
-height: 245px;
+height: 210px;
 width: 245px;
-border-right: solid black 2px;
+border-right: solid white 2px;
 float: left;
 }
 
-
-
-#logohands {
-height: auto;
-width: 100px;
+.blockcom3 {
+  height: 210px;
+  width: 245px;
+  border-bottom: solid white 2px;
+  float: left;
 }
 
-#logohub {
+.blockcom4 {
+  height: 210px;
+  width: 245px;
+  float: left;
+}
+
+
+
+/* REGOLE LOGO BLOCK GRIGLIA UP-DOWN */
+.logo {
   height: auto;
-  width: 100px;
+  width: 140px;
+  margin-left: 55px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-#logoaccademy {
-  height: auto;
-  width: 100px;
-}
-
-#logoinbound {
-  height: auto;
-  width: 100px;
+.fontblockcom {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-bottom: 10%;
 }
 
 
+.description {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
 
+.blockcom1 span {
+  font-size: 20px;
+  }
+
+.blockcom2 span {
+  font-size: 20px;
+}
+
+.blockcom3 span {
+  font-size: 20px;
+}
+
+.blockcom4 span {
+  font-size: 20px;
+}
 
 
 
