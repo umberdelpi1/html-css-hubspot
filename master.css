@@ -60,6 +60,12 @@ blockcommunity::after {
   clear: both;
 }
 
+blockcustomers1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 
 
@@ -551,13 +557,6 @@ float: left;
 
 
 
-
-
-
-
-
-
-
 /* 4° BLOCCO */
 
 .block4 {
@@ -565,6 +564,45 @@ float: left;
   width: 100%;
   background-color: white;
 }
+
+.blockcustomers1 {
+  height: 300px;
+  margin: 5% 15%;
+  /* debug */
+  border: solid black 1px;
+}
+
+.blockcustleft {
+  height: 300px;
+  width: 200px;
+  /* debug */
+  border: solid black 1px;
+  float: left;
+}
+
+.blockcustright {
+  height: 300px;
+  width: 500px;
+  /* debug */
+  border: solid black 1px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 
