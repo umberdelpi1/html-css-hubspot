@@ -560,11 +560,12 @@ float: left;
 /* 4° BLOCCO */
 
 .block4 {
-  height: 600px;
+  height: 1000px;
   width: 100%;
   background-color: white;
 }
 
+/* BLOCCO CUSTUMERS LEFT UP*/
 .blockcustomers1 {
   height: 300px;
   margin: 5% 15%;
@@ -579,7 +580,7 @@ float: left;
   border: solid black 1px;
   float: left;
 }
-
+/* BLOCCO CUSTUMERS RIGHT UP */
 .blockcustright {
   height: 300px;
   width: 500px;
@@ -588,9 +589,31 @@ float: left;
   float: right;
 }
 
+/* BLOCCO STARTGROW DOWN */
 
 
+.blockstartgrow {
+  height: 500px;
+  margin: 5% 15%;
+  /* debug */
+  border: solid black 1px;
+}
 
+.blockgrowleft {
+  height: 500px;
+  width: 200px;
+  /* debug */
+  border: solid black 1px;
+  float: left;
+}
+/* BLOCCO CUSTUMERS RIGHT UP */
+.blockgrowright {
+  height: 500px;
+  width: 500px;
+  /* debug */
+  border: solid black 1px;
+  float: right;
+}
 
 
 
