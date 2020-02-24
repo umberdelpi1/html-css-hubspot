@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: helvetica;
+  color: rgb(1, 55, 99);
 }
 
 navfixconteiner::after {
@@ -66,6 +67,11 @@ blockcustomers1::after {
   clear: both;
 }
 
+blockgrowright::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
@@ -541,18 +547,22 @@ float: left;
 
 .blockcom1 span {
   font-size: 20px;
+  color: white;
   }
 
 .blockcom2 span {
   font-size: 20px;
+  color: white;
 }
 
 .blockcom3 span {
   font-size: 20px;
+  color: white;
 }
 
 .blockcom4 span {
   font-size: 20px;
+  color: white;
 }
 
 
@@ -574,8 +584,8 @@ float: left;
 }
 
 .blockcustleft {
-  height: 300px;
-  width: 200px;
+  height: 220px;
+  width: 270px;
   /* debug */
   border: solid black 1px;
   float: left;
@@ -606,6 +616,21 @@ float: left;
   border: solid black 1px;
   float: left;
 }
+
+.blockcustleft h2 {
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.blockcustleft p {
+  line-height: 150%;
+  font-size: 18px;
+}
+.blockcustleft b {
+  font-size: 22px;
+}
+
+
 /* BLOCCO CUSTUMERS RIGHT UP */
 .blockgrowright {
   height: 500px;
@@ -614,6 +639,17 @@ float: left;
   border: solid black 1px;
   float: right;
 }
+
+.blockcustgridright {
+  background-image: url(img/atlassian.jpg);
+  background-size: cover;
+  height: 33px;
+  width: 25%;
+  float: left;
+  /* debug */
+  border: solid black 1px;
+}
+
 
 
 
